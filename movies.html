@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="plugin/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="plugin/assets/owl.theme.default.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid p-2">
+          <img src="assets/icon.png" alt="error" />
+          <a class="navbar-brand logo me-auto pe-5" href="#">Cine-Wow</a>
+
+          <div
+            class="sidebar offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand logo me-auto" href="#">Cine-Wow</a>
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-lg-start flex-grow-1 pe-3">
+                <li class="nav-item px-3">
+                  <a class="nav-link " aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a class=" nav-link active" href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="tvshows.html">Tv Shows</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-light" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </form>
+              </ul>
+            </div>
+          </div>
+          <div class="me-4 option-3">
+            <a href="login.html" class="nav-link"><img src="assets/icon1.avif" alt="error"></a>
+            
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container-fluid p-0">
+      <div class="bg d-flex justify-content-center">
+        <h1 class="align-content-center">Movies</h1>
+      </div>
+    </section>
+    <section class="">
+      <section>
+        <section class="container-fluid">
+          <div class="popular-container">
+            <h1 class="pt-5">Marvel</h1>
+            <div class="hero">
+              <div class="owl-carousel owl-theme">
+                <div class="card">
+                  <img src="assets/m-1.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Iron Man</h3>
+                      <p>7.9 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2008</span>
+                      <span>Action/Sci-fi </span>
+                      <span>2h 6m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/m-2.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Ant-Man</h3>
+                      <p>7.2 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2015</span>
+                      <span>Action/Comedy </span>
+                      <span>1h 57m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/m-3.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Thor</h3>
+                      <p>7.0 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2011</span>
+                      <span>Action/Fantacy </span>
+                      <span>1h 54m</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/m-4.jpg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Captain America</h3>
+                      <p>8.5 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2024</span>
+                      <span>Action/Sci-fi </span>
+                      <span>1h 37m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/m-5.webp" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Deadpool</h3>
+                      <p>7.6 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2018</span>
+                      <span>Action/Comedy </span>
+                      <span>1h 59m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/m-6.webp" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Hulk</h3>
+                      <p>5.6 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2003</span>
+                      <span>Action/Sci-fi </span>
+                      <span>2h 18m </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="plugin/owl.carousel.min.js"></script>
+        <script>
+          $(".owl-theme").owlCarousel({
+            items: 1,
+            margin: 10,
+            nav: true,
+            dots: false,
+            loop: false,
+
+            responsive: {
+              0: {
+                items: 1,
+              },
+              576: {
+                items: 2,
+              },
+              992: {
+                items: 3,
+              },
+              1200: {
+                items: 4,
+              },
+            },
+          });
+        </script>
+        <section class="container-fluid">
+          <div class="popular-container">
+            <h1>Horror/Anime</h1>
+            <div class="hero">
+              <div class="owl-carousel owl-theme">
+                <div class="card">
+                  <img src="assets/h-1.webp" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>The Conjuring</h3>
+                      <p>7.5 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2013</span>
+                      <span>Horror </span>
+                      <span>1h 52m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/h-2.jpg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Annabelle</h3>
+                      <p>5.5 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2014</span>
+                      <span>Horror </span>
+                      <span>1h 39m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/h-3.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>The Exorcist</h3>
+                      <p>4.8 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2023</span>
+                      <span>Horror/Mystery </span>
+                      <span>2h 1m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/h-4.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Spirited Away</h3>
+                      <p>8.6 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2001</span>
+                      <span>Fantasy/Adventure </span>
+                      <span>2h 5m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/h-5.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Wolf Children</h3>
+                      <p>8.1 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2012</span>
+                      <span>Fantasy/Family </span>
+                      <span>1h 31m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/h-6.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>IF</h3>
+                      <p>6.4 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2024</span>
+                      <span>Family</span>
+                      <span>1h 48m </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="plugin/owl.carousel.min.js"></script>
+        <script>
+          $(".owl-theme").owlCarousel({
+            items: 1,
+            margin: 10,
+            nav: true,
+            dots: false,
+            loop: false,
+
+            responsive: {
+              0: {
+                items: 1,
+              },
+              576: {
+                items: 2,
+              },
+              992: {
+                items: 3,
+              },
+              1200: {
+                items: 4,
+              },
+            },
+          });
+        </script>
+        <section class="container-fluid">
+          <div class="popular-container">
+            <h1>Science-Fiction</h1>
+            <div class="hero">
+              <div class="owl-carousel owl-theme">
+                <div class="card">
+                  <img src="assets/s-1.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Atlas</h3>
+                      <p>5.6 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2022</span>
+                      <span>Sci-fi/Action </span>
+                      <span>2h 00m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/s-2.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Stowaway</h3>
+                      <p>6.5 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2021</span>
+                      <span>Sci-fi/Thriller</span>
+                      <span>1h 56m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/s-3.avif" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Dune</h3>
+                      <p>8.0 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2021</span>
+                      <span>Sci-fi/Adventure </span>
+                      <span>2h 35m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/s-4.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Kalki 2898 AD</h3>
+                      <p>7.0 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2024</span>
+                      <span>Sci-fi </span>
+                      <span>3h 1m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/s-5.jpg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Arrival</h3>
+                      <p>7.9 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2016</span>
+                      <span>Sci-fi </span>
+                      <span>1h 56m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/s-6.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>SpaceMan</h3>
+                      <p>5.7 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2024</span>
+                      <span>Sci-fi </span>
+                      <span>1h 49m </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="plugin/owl.carousel.min.js"></script>
+        <script>
+          $(".owl-theme").owlCarousel({
+            items: 1,
+            margin: 10,
+            nav: true,
+            dots: false,
+            loop: false,
+
+            responsive: {
+              0: {
+                items: 1,
+              },
+              576: {
+                items: 2,
+              },
+              992: {
+                items: 3,
+              },
+              1200: {
+                items: 4,
+              },
+            },
+          });
+        </script>
+        <section class="container-fluid">
+          <div class="popular-container">
+            <h1>Kids</h1>
+            <div class="hero">
+              <div class="owl-carousel owl-theme">
+                <div class="card">
+                  <img src="assets/k-1.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>The Wild Robot</h3>
+                      <p>8.3 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2024</span>
+                      <span>Family </span>
+                      <span>1h 42m</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/k-2.webp" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Luca</h3>
+                      <p>7.4 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2021</span>
+                      <span>Family </span>
+                      <span>1h 35m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/k-3.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Frozen</h3>
+                      <p>7.4 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2013</span>
+                      <span>Family </span>
+                      <span>1h 42m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/k-4.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Harry Potter</h3>
+                      <p>7.7 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2001</span>
+                      <span>Family</span>
+                      <span>2h 39m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/k-5.jpg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>UP</h3>
+                      <p>8.3 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2009</span>
+                      <span>Family </span>
+                      <span>1h 36m </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="assets/k-6.jpeg" class="w-100 h-100" alt="error" />
+                  <div class="img-overlay">
+                    <h5>HD</h5>
+                    <div class="icons-holder">
+                      <div class="icons">
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-plus-circle"></i>
+                        <i class="bi bi-share-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title d-flex justify-content-between">
+                      <h3>Coco</h3>
+                      <p>8.4 <i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <div class="card-subtitle d-flex justify-content-between">
+                      <span>2017</span>
+                      <span>Family </span>
+                      <span>1h 45m </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+        <script src="plugin/owl.carousel.min.js"></script>
+        <script>
+          $(".owl-theme").owlCarousel({
+            items: 1,
+            margin: 10,
+            nav: true,
+            dots: false,
+            loop: false,
+
+            responsive: {
+              0: {
+                items: 1,
+              },
+              576: {
+                items: 2,
+              },
+              992: {
+                items: 3,
+              },
+              1200: {
+                items: 4,
+              },
+            },
+          });
+        </script>
+      </section>
+      <footer>
+        <div class="container px-5 pt-3">
+          <div class="row footer1">
+            <div class="col-lg-4 col-md-6 mb-3">
+              <h2 class="pb-2">Cine-wow</h2>
+              <p>
+                Your ultimate destination for movies! Discover the latest
+                blockbusters, timeless classics, and exclusive releases all in
+                one place. Enjoy seamless streaming, reviews, and
+                recommendations tailored just for you.
+              </p>
+
+              <div class="connect-icons mt-4">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-whatsapp"></i>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 link">
+              <h2 class="pb-2">Explore</h2>
+
+              <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="movies.html" class="nav-link">Movies</a></li>
+                <li><a href="tvshows.html" class="nav-link">Tv Shows</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 work">
+              <h2 class="pb-2">Support</h2>
+              <ul>
+                <li>Help Center</li>
+                <li>Privacy Policy</li>
+                <li>Customer Service</li>
+                <li>Copyright Notice</li>
+                <li>Cookie Policy</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <h2 class="pb-2">Download App</h2>
+              <p>Get the app now and dive into the world of cinema!</p>
+              <img src="assets/app1.png" class="w-100" alt="error" />
+            </div>
+            <div class="one pb-3"></div>
+          </div>
+        </div>
+      </footer>
+      <footer class="text-center">
+        <div class="container px-4">
+          <div class="row footer2 pt-3">
+            <div class="col-lg-12 mb-2">
+              <p>&copy; 2024 Cine-Wow. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

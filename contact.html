@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="plugin/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="plugin/assets/owl.theme.default.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid p-2">
+          <img src="assets/icon.png" alt="error" />
+          <a class="navbar-brand logo me-auto pe-5" href="#">Cine-Wow</a>
+
+          <div
+            class=" sidebar sidebar offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand logo me-auto" href="#">Cine-Wow</a>
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-lg-start flex-grow-1 pe-3">
+                <li class="nav-item px-3">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="movies.html">Movies</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="tvshows.html">Tv Shows</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-light" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </form>
+              </ul>
+            </div>
+          </div>
+          <div class="me-4 option-3">
+            <a href="login.html" class="nav-link"><img src="assets/icon1.avif" alt="error"></a>
+            
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="container-fluid p-0">
+      <div class="bg d-flex justify-content-center">
+        <h1 class="align-content-center">Contact Us</h1>
+      </div>
+    </section>
+    <section class="">
+      <div class="container p-3">
+        <div class="contact-container text-center">
+          <div class="row" >
+            <div class="col-md-12 col-lg-6 location" >
+              <h2 class="p-3">get in touch</h2>
+              <div class="location-content p-4">
+                <p class="mb-4">
+                  We're here to help! Fill out the form or reach us via email or
+                  phone. our customer care team is available to help you to get
+                  the best experience for your issue
+                </p>
+                <div class="location-widget mb-3">
+                  <i class="bi bi-crosshair">
+                    <span>92 Cherry Drive Uniondale,NY 11553</span></i
+                  >
+                </div>
+
+                <div class="location-widget mb-3">
+                  <i class="bi bi-phone"> <span>+91 1234567890</span></i>
+                </div>
+                <div class="location-widget mb-3">
+                  <i class="bi bi-envelope"> <span> info@fitgoal.org</span></i>
+                </div>
+                <div class="connect">
+                  <h3>Connect With Us:</h3>
+                  <div class="connect-icons mt-4">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-whatsapp"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6 contact-form p-3" >
+              <h2 class="mb-4">Contact Us</h2>
+              <form id="myForm"  class="px-5" name="contact" onsubmit="return validate()">
+                <input
+                  type="text"
+                  class="form-control mb-2 p-3"
+                  name="username"
+                  id="name"
+                  placeholder="Enter Your FullName"
+                />
+                <p id="nameError"></p>
+                <input
+                  type="text"
+                  class="form-control mb-2 p-3"
+                  name="email"
+                  id="email"
+                  placeholder="Enter Your EMail Id"
+                />
+                <p id="emailError"></p>
+
+                <input
+                  type="text"
+                  class="form-control mb-2 p-3"
+                  name="mobile"
+                  id="number"
+                  placeholder="Enter Your Phone Number"
+                />
+                <p id="mobileError"></p>
+                <textarea
+                  name="message"
+                  class="form-control mb-2"
+                  id="message"
+                  rows="4"
+                  placeholder="Message"
+                ></textarea>
+                <p id="messageError"></p>
+                <button onclick="validate()">Submit</button>
+              </form>
+              
+            </div>
+            <script src="validation.js"></script>
+          </div>
+        </div>
+      </div>
+     
+      <footer>
+        <div class="container px-5 pt-3">
+          <div class="row footer1">
+            <div class="col-lg-4 col-md-6 mb-3">
+              <h2 class="pb-2">Cine-wow</h2>
+              <p>
+                Your ultimate destination for movies! Discover the latest
+                blockbusters, timeless classics, and exclusive releases all in
+                one place. Enjoy seamless streaming, reviews, and
+                recommendations tailored just for you.
+              </p>
+
+              <div class="connect-icons mt-4">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-whatsapp"></i>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 link">
+              <h2 class="pb-2">Explore</h2>
+
+              <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="movies.html" class="nav-link">Movies</a></li>
+                <li><a href="tvshows.html" class="nav-link">Tv Shows</a></li>
+                <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 work">
+              <h2 class="pb-2">Support</h2>
+              <ul>
+                <li>Help Center</li>
+                <li>Privacy Policy</li>
+                <li>Customer Service</li>
+                <li>Copyright Notice</li>
+                <li>Cookie Policy</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <h2 class="pb-2">Download App</h2>
+              <p>Get the app now and dive into the world of cinema!</p>
+              <img src="assets/app1.png" class="w-100" alt="error" />
+            </div>
+            <div class="one pb-3"></div>
+          </div>
+        </div>
+      </footer>
+      <footer class="text-center">
+        <div class="container px-4">
+          <div class="row footer2 pt-3">
+            <div class="col-lg-12 mb-2">
+              <p>&copy; 2024 Cine-Wow. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
